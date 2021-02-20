@@ -1,3 +1,12 @@
 {
-  "python.pythonPath": "c:\\users\\xcdqa\\appdata\\local\\programs\\python\\python39\\python.exe"
+  "python.pythonPath": "c:\\users\\xcdqa\\appdata\\local\\programs\\python\\python39\\python.exe",
+  "sqltools.connections": [
+    {
+      "previewLimit": 50,
+      "driver": "SQLite",
+      "name": "hello",
+      "database": "${workspaceFolder:cdc}/other/text.db"
+    }
+  ],
+  "sqltools.useNodeRuntime": true
 }
